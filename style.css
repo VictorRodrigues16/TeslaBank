@@ -16,15 +16,19 @@ main{
 
 section#left-side{
     background-color: #F2F4FD;
+    padding-bottom: 21rem;
 }
 
 section#right-side{
     background: linear-gradient(220.94deg, #EB3850 14.43%, #CB162E 85.28%);
-    
-    
+    display: flex;
+    flex-direction: column;
+    gap: 13rem;
+    padding-right: 6rem;
+    padding-left: 5rem;
 }
 
-nav{
+nav#left{
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -46,8 +50,9 @@ div#tittle-left-side{
     padding-top: 10rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding-left: 3rem;
+    gap: 5rem;
+    padding-left: 8rem;
+
 }
 
 section#left-side h1{
@@ -69,4 +74,50 @@ div#tittle{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+div#button-left-side{
+    display: flex;
+    gap: 2rem;
+}
+
+button{
+    background: linear-gradient(220.94deg, #EB3850 14.43%, #CB162E 85.28%);
+    border: none;
+    font-family: 'Inter', sans-serif, Arial;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    color: #fff;
+    display: flex;
+    gap: 0.9rem;
+    cursor: pointer;
+}
+
+img#btn{
+    width: 1.7rem;
+}
+
+nav#right{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    color: white;
+}
+
+nav#right h3{
+    font-family: 'Inter', sans-serif, Arial;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding-left: 17rem;
+}
+
+nav#right img{
+    width: 1rem;
+}
+
+img#fundo{
+    width: 33rem;
 }
